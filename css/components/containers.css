@@ -1,0 +1,36 @@
+.container1 {
+  max-width: 1200px;
+  margin: 10px auto;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-align: right;
+}
+
+.container1 h1,
+.container1 p,
+.container1 a{
+  margin:0px;
+}
+
+.container1 h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.container1 p {
+  font-size:20px;
+  margin-bottom: 8px;
+}
+
+.container2 {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  height: 350px;
+}
+
+.footer {
+  background-color: #246787;
+  text-align: center;
+}

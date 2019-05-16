@@ -1,0 +1,15 @@
+.btn-join{
+  background-color: rgba(194, 239, 235,0.5);
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #012825;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  transition: color 500ms ease, background-color 500ms ease;
+}
+
+.btn-join:hover {
+  background-color: rgba(194, 239, 235,1);
+  color: #009387;
+}
