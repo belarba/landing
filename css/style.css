@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Halant:400,700|Nunito+Sans');
 
 /* Importing all components file */
 @import url("components/banner.css");
@@ -13,11 +13,16 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
+  font-family: Nunito+Sans;
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  font-family: Halant;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 50px;
 }
 
 a {

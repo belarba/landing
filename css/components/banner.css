@@ -1,6 +1,13 @@
 .banner {
   display: flex;
-  height: 600px;
+  height: 100vh;
   background-position: top;
-  position: relative;
+  background-repeat: no-repeat;
 }
+
+@media(max-width: 650px){
+  .banner {
+    background-position: right 57% bottom 93%;
+  }
+}
+
